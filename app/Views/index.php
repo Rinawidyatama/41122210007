@@ -26,7 +26,7 @@
                         <td><?= $note['judul']; ?></td>
                         <td><?= $note['peserta']; ?></td>
                         <td>
-                            <a href="#" class="btn btn-primary">Edit</a>
+                            <a href="<?= base_url('add') ?>" class="btn btn-primary">Edit</a>
                             <a href="#" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
